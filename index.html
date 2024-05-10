@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="626Ch29U5NE4h18mqZ7mXD92RH4l7PuCMNSVJFcPf0o" />
+    <title>Simplifying Your Electricity Management: A Guide to LESCO Online Services</title>
+    <style>
+        .input-field {
+            width: 100% !important;
+            height: 20px !important;
+            padding: 1.5rem 1rem !important;
+            overflow: hidden;
+            border: 1px solid rgba(0, 0, 0, .125);
+            border-radius: 0.25rem;
+
+        }
+
+        .checkBtn {
+            border-radius: 10px !important;
+            background: blue;
+            color: white;
+            overflow: hidden;
+            border: none;
+            width: auto;
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        .margin-top-30 {
+            margin-top: 30px;
+        }
+
+        .checkBtn:hover {
+
+            background: rgb(2, 2, 29);
+        }
+
+        .logo {
+            width: 60px;
+        }
+
+        .col {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        article {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .col {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+
+        .custom-card {
+            border: 1px solid rgba(0, 0, 0, .125);
+            border-radius: 0.25rem;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            max-width: 90%;
+
+            margin: auto;
+
+        }
+
+        .card-header {
+            padding: 0.5rem 1rem;
+            background: rgba(0, 0, 0, .03);
+            border-bottom: 1px solid rgba(0, 0, 0, .125);
+        }
+
+        .card-body {
+            padding: 1.5rem 1rem;
+        }
+    </style>
+
+    <script>
+
+
+
+        function checkbill() {
+            window.location.href = `http://www.lesco.gov.pk:36269/Modules/CustomerBill/CheckBill.asp`
+
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Simplifying Your Electricity Management: A Guide to LESCO Online Services</h1>
+    </header>
+    <article>
+
+        <div class="custom-card my-5">
+            <!-- card header -->
+            <div class="card-header">
+                <span>Check Your LESCO Bill</span>
+            </div>
+            <!-- card body -->
+            <div class="card-body ">
+
+                <form method="get" name="checkBillForm" id="checkBillForm">
+                    <div>
+                        <label for="ref">Reference Number:</label>
+                    </div>
+                    <div>
+
+                        <input class="input-field" required="" placeholder="Enter your reference number" type="text"
+                            id="mepcoRef" name="refno">
+                    </div>
+                    <div id="error" class="error hidden">
+
+                    </div>
+
+
+                    <div class="margin-top-30" style="text-align: center;">
+                        <input type="button" onclick="checkbill()" class="checkBtn" value="Check LESCO Bill">
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+        <section>
+            <h2>1. How to Check LESCO Bill Online</h2>
+            <p>Gone are the days of waiting in long queues or dealing with paper bills. With LESCO's online bill
+                checking service, you can <a href="https://pescobilling.pk/">access your electricity bill</a> anytime, anywhere. Simply follow these steps:</p>
+            <ol>
+                <li>Visit the LESCO <a href="https://lescobilling.pk/">website</a>.</li>
+                <li>Locate the 'Bill Inquiry' or 'Online Billing' section.</li>
+                <li>Enter your 14-digit reference number (found on your bill).</li>
+                <li>Click on 'Submit' or 'View Bill' to access your current bill details.</li>
+                <li>You can also choose to download or print the bill for your records.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>2. How to Pay LESCO Bill Online</h2>
+            <p>Paying your electricity bill is quick and convenient with LESCO's online payment options. Here's how you
+                can settle your bill electronically:</p>
+            <ol>
+                <li>Visit LESCO's official website.</li>
+                <li>Navigate to the 'Online Bill Payment' section.</li>
+                <li>Enter your reference number or consumer ID.</li>
+                <li>Select your preferred payment method (credit/debit card, mobile wallet, or online banking).</li>
+                <li>Follow the prompts to complete the payment securely.</li>
+                <li>Upon successful transaction, you'll receive a confirmation message.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>3. How to Apply for a New LESCO Connection</h2>
+            <p>If you require a new electricity connection, LESCO offers an online application process for your
+                convenience. Follow these steps:</p>
+            <ol>
+                <li>Visit the LESCO website and find the New
+                        Connection section .</li>
+                <li>Fill out the online application form accurately.</li>
+                <li>Attach the necessary documents, such as CNIC, proof of ownership, and site plan.</li>
+                <li>Submit the application and await LESCO's verification process.</li>
+                <li>Once approved, proceed to pay the required fees online.</li>
+                <li>LESCO will schedule the installation of your new connection.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>4. LESCO History</h2>
+            <p>Lahore Electric Supply Company (LESCO) is a prominent electricity distribution company in Pakistan,
+                serving the city of Lahore and its surrounding areas. Established in [year of establishment], LESCO has
+                been dedicated to providing reliable and affordable electricity to its consumers.</p>
+        </section>
+
+        <section>
+            <h2>5. LESCO Bill Taxes</h2>
+            <p>Understanding the components of your electricity bill can assist in managing your expenses effectively.
+                LESCO bills typically include charges for electricity consumption, taxes, surcharges, and other
+                government-imposed levies. It's essential to review your bill thoroughly to comprehend the breakdown of
+                charges.</p>
+        </section>
+
+        <section>
+            <h2>6. Tips to Reduce LESCO Bill</h2>
+            <p>If you aim to decrease your electricity bill, consider implementing these energy-saving practices:</p>
+            <ul>
+                <li>Utilize energy-efficient appliances and lighting.</li>
+                <li>Turn off lights and electronics when not in use.</li>
+                <li>Opt for natural ventilation instead of air conditioning.</li>
+                <li>Seal gaps and cracks to prevent energy loss.</li>
+                <li>Explore the possibility of installing solar panels or other renewable energy sources.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>7. Safety Guidelines</h2>
+            <p>When dealing with electricity, prioritizing safety is paramount. Adhere to these essential safety
+                guidelines:</p>
+            <ul>
+                <li>Avoid tampering with electrical equipment or meters.</li>
+                <li>Engage qualified professionals for electrical installations and repairs.</li>
+                <li>Keep electrical outlets and wires away from water sources.</li>
+                <li>Utilize surge protectors to safeguard sensitive electronics.</li>
+                <li>In the event of emergencies or power outages, promptly contact LESCO's helpline.</li>
+            </ul>
+        </section>
+    </article>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyAf3AW0oVAoovF6BSly4AXwQkTj3Fu83tM",
+            authDomain: "lesco-bill-dc9e6.firebaseapp.com",
+            projectId: "lesco-bill-dc9e6",
+            storageBucket: "lesco-bill-dc9e6.appspot.com",
+            messagingSenderId: "374016697201",
+            appId: "1:374016697201:web:5a051e2eadd0572c310cd0"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    </script>
+</body>
+
+</html>
